@@ -4,102 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>AnupamGupta</title>
+    <link href="styles.css" rel="stylesheet" />
 </head>
 <body>
-    <h1>Anupam's component library</h1>
-    <p>I am making this component library so that I can use it for other projects.</p>
 
-    <hr>
-
-    <h2>@typography</h2>
-
-    <h1>This is the biggest heading</h1>
-    <h2>This is the second biggest</h2>
-    <p>This is the normal text. This is free flowing and will wrap at the end like a paragraph.</p>
-    <small>This is relatively smaller text.</small>
-
-    <hr>
-
-    <h2>@container</h2>
-
-    <h3>fluid container</h3>
-    <div>This is a centred container and it will go till the end of the page</div>
-
-    <hr>
-
-    <h3>center container</h3>
-    <div>This is a centered containerand it will go till the specified width</div>
-
-    <hr>
-
-    <h2>@links</h2>
-
-    <a href="/">Primary link</a>
-    <a href="/">Secondary link</a>
-
-    <hr>
-
-    <h2>@lists</h2>
-
-    <h3>unordered list</h3>
-
-    <ul>
-        <li>Item one</li>
-        <li>Item two</li>
-        <li>Item three</li>
-    </ul>
-
-    <h3>reverse ordered list</h3>
-
-    <ol>
-        <li>milk</li>
-        <li>eggs</li>
-        <li>break</li>
-    </ol>
-
-    <hr>
-
-    <h2>@nav</h2>
-
-    <nav>
-        <div>iamBrand</div>
-        <ul>
-            <li><a href="/">home</a></li>
-            <li><a href="/">products</a></li>
-            <li><a href="/">about</a></li>
+    <nav class="navigation container">
+        <div class="nav-brand">IamDeveloper</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline"><a class="link link-active" href="/">home</a></li>
+            <li class="list-item-inline"><a class="link" href="/">products</a></li>
+            <li class="list-item-inline"><a class="link" href="/">about</a></li>
         </ul>
     </nav>
 
-    <hr>
-
-    <h2>header</h2>
-
-    <header>
-        <img src="images/hero.svg" />
-        <h1>heading inside header</h1>
+    <header class="hero">
+        <img class="hero-img" src="images/hero.svg" />
+        <h1 class="hero-heading">anupam gupta the <span class="heading-inverted">web developer</span></h1>
     </header>
 
-    <hr>
-    <h2>section</h2>
-    <section>
-        <h3>white section</h3>
-        <p>This will have a white background</p>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>technologies</h1>
+            <p>I'm familiar with HTML5, CSS, Git, JavaScript, NodeJS, ReactJS and Web Hosting</p>
+        </div>
     </section>
 
-    <section>
-        <h3>off white section</h3>
-        <p>This will have a gray background</p>
+    <section class="section">
+        <div class="container container-center">
+            <h1>projects</h1>
+            <p>I k=like to showcase my work and thus, you can see my projects hosted over here</p>
+            <a class="link link-primary" href="/">See projects</a>
+        </div>
     </section>
-    
-    <hr>
 
-    <footer>
-        <div>Some small heading inside the footer</div>
-        <ul>
-            <li>socialone</li>
-            <li>socialtwo</li>
-            <li>socialthree</li>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>blogs</h1>
+            <p>I am also working on some technical and non techincal blogs. I like to document my journey of learning.</p>
+            <a class="link link-secondary" href="/">Read Blogs</a>      
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-header">Social media presence</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline"><a class="link" href="https://github.com/anupam39">Github
+            </a></li>
+            <li class="list-item-inline"><a class="link" href="https://twitter.com/anupamgupta3114">Twitter
+            </a></li>
+            <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/anupam-gupta-1a129113a/">Linkedin
+            </a></li>
         </ul>
     </footer>
 </body>
