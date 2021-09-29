@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
 
 :root{
     --primary-color: #FF8163;
@@ -7,7 +7,7 @@
 }
 
 body{
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin: 0px;
 }
 
@@ -37,15 +37,22 @@ hr{
     background-color:var(--primary-color);
     border-radius: 0.5rem;
     color: white;
+    display: block;
+    max-width: 140px;
+    margin: 1rem 1rem 1rem 0rem;
 }
 
 .link-secondary{
     border-radius:0.5rem;
     border: 1px solid var(--primary-color);
+    display: block;
+    max-width: 140px;
+    margin: 1rem 1rem 1rem 0rem;
 }
 
 .list-non-bullet{
     list-style:none;
+    padding-inline-start: 0px;
 }
 
 .list-item-inline{
@@ -82,7 +89,8 @@ hr{
 }
 
 .hero.hero-img{
-    max-width:350px;
+    max-width 80%;
+    width: 350px;
     display:block;
     margin:auto;
 }
@@ -111,7 +119,7 @@ hr{
 
 .footer{
     background-color: var(--primary-color);
-    padding: 2rem 1rem;
+    padding: 4rem 1rem;
     text-align: center;
     color:white;
     border-top-right-radius: 1rem;
@@ -128,4 +136,12 @@ hr{
 
 .footer ul{
     padding-inline-start: 0px;
+}
+
+.showcase-list{
+    padding: 2rem;
+}
+
+.showcase-blog{
+    padding-bottom: 6rem;
 }
